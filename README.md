@@ -51,20 +51,19 @@ Allows multiple rounds of obfuscation transformations to increase binary complex
 ---
 
 ## System Workflow
-Source Code Input
-↓
-Compilation using LLVM
-↓
-Intermediate Representation (IR)
-↓
-Obfuscation Passes Applied
-↓
-Binary Generation
-↓
-Obfuscation Report Generation
-
-
----
+    Source Code Input
+    ↓
+    Compilation using LLVM
+    ↓
+    Intermediate Representation (IR)
+    ↓
+    Obfuscation Passes Applied
+    ↓
+    Binary Generation
+    ↓
+    Obfuscation Report Generation
+    
+    ---
 
 ## Input
 
@@ -111,23 +110,23 @@ The report includes:
 ---
 
 ## Project Structure
-OAAS-LLVM/
-│
-├── src/
-│ ├── obfuscation_pass/
-│ ├── string_obfuscator/
-│ └── control_flow_transform/
-│
-├── scripts/
-│ └── build_pipeline/
-│
-├── reports/
-│ └── obfuscation_reports/
-│
-├── examples/
-│ └── sample_programs/
-│
-└── README.md
+    OAAS-LLVM/
+    │
+    ├── src/
+    │ ├── obfuscation_pass/
+    │ ├── string_obfuscator/
+    │ └── control_flow_transform/
+    │
+    ├── scripts/
+    │ └── build_pipeline/
+    │
+    ├── reports/
+    │ └── obfuscation_reports/
+    │
+    ├── examples/
+    │ └── sample_programs/
+    │
+    └── README.md
 
 
 ---
